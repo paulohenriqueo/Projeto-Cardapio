@@ -1,52 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Cardapio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-    <link rel="stylesheet" href="css/style.css">
 <body>
-    <div class="container">
-        <div class="home">
-            <h1>Menu - Faça A Sua Escolha</h1>
+  <div class="container">
+    <img src="img/banner.png" alt="Banner" class="banner">
+    <div class="home">
+      <h1>Menu - Faça A Sua Escolha</h1>
+    </div>
+
+    <div class="cardapio">
+      <div class="desc">
+        <h2>Prato Principal</h2>
+        <h3>Todos os pratos acompanham arroz, feijão e a sobremesa do dia.</h3>
+      </div>
+
+      <div class="pratos-container">
+        <div class="prato">
+        <img src="img/bife.jpg" alt="Bife com batata">
+        <p class="nome-prato">Bife com batata</p>
+        <p class="preco">R$ 30,00</p>
         </div>
-        <div class="cardapio">
-            <h2>Prato Principal</h2>
-            <h3>Todos os pratos acompanham arroz, feijão
-                e a sobremesa do dia</h3>
-            <div class="pratos">
 
-            </div>
-            <div class="pratos">
-
-            </div>
-            <div class="pratos">
-
-            </div>
+        <div class="prato">
+        <img src="img/frango.jpg" alt="Coxa de Frango Crocante">
+        <p class="nome-prato">Coxa de Frango Crocante</p>
+        <p class="preco">R$ 25,00</p>
         </div>
-        <div class="cardapio">
-            <h2>Acompanhamentos</h2>
-            <h3>Porções para uma pessoa</h3>
-            <div class="pratos">
 
-            </div>
-            <div class="pratos">
-
-            </div>
-            <div class="pratos">
-
-            </div>
+        <div class="prato">
+        <img src="img/carne.jpg" alt="Carne na Panela">
+        <p class="nome-prato">Carne na Panela</p>
+        <p class="preco">R$ 22,00</p>
         </div>
-        <div class="dados">
-            <h1>Dados Pessoais</h1>
-            <input type="text">
-            <input type="text">
-            <input type="text">
-        </div>
-        <div class="info">
-            
         </div>
     </div>
+    <div class="cardapio">
+      <div class="desc">
+        <h2>Acompanhamentos</h2>
+        <h3>Porções para uma pessoa</h3>
+      </div>
+
+      <div class="pratos-container">
+        <div class="prato">
+        <img src="img/bife.jpg" alt="Farofa">
+        <p class="nome-prato">Farofa</p>
+        <p class="preco">R$ 10,00</p>
+        </div>
+
+        <div class="prato">
+        <img src="img/frango.jpg" alt="Salada">
+        <p class="nome-prato">Salada</p>
+        <p class="preco">R$ 8,00</p>
+        </div>
+
+        <div class="prato">
+        <img src="img/carne.jpg" alt="Torresmo">
+        <p class="nome-prato">Torresmo</p>
+        <p class="preco">R$ 12,00</p>
+        </div>
+        </div>
+    </div>
+    <div class="cardapio">
+      <div class="desc">
+        <h2>Dados Pessoais</h2>
+      </div>
+      <input type="text">
+      <input type="text">
+      <input type="text">
+    </div>
+    <button>Calcular</button>
+    <div class="info">
+
+    </div>
+  </div>
 </body>
 </html>
