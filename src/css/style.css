@@ -1,12 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #d3cbc4;
+  background-color: #C5C1C0;
   font-family: Arial, sans-serif;
 }
 
 .container {
-  background-color: #fff;
+  background-color: #FFFFFF;
   padding: 30px;
   margin: 40px auto;
   border-radius: 15px;
@@ -26,7 +26,7 @@ body {
 }
 
 .cardapio {
-  background-color: #f8f8f8;
+  background-color: #F5F5F5;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -53,7 +53,7 @@ body {
 }
 
 .prato {
-  background-color: #fff;
+  background-color: #F5F5F5;
   border-radius: 10px;
   padding: 15px;
   width: 200px;
