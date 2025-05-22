@@ -6,3 +6,4 @@ var prods = [
     {id : 5, name : "Salada", price : 8.00},
     {id : 6, name : "Torresmo", price : 12.00},
 ]
+
