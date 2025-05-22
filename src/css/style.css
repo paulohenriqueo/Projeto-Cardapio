@@ -9,6 +9,7 @@ body {
   background-color: #FFFFFF;
   padding: 30px;
   margin: 40px auto;
+  margin-top: 10px;
   border-radius: 15px;
   max-width: 900px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -78,6 +79,44 @@ body {
   margin-bottom: 10px;
 }
 
+#output {
+  margin-top: 20px;
+  text-align: left;           
+  font-family: Arial, sans-serif;
+  padding-left: 10px;        
+}
+
+#output p {
+  margin: 10px 0 10px 0;      
+  font-size: 1rem;
+}
+
+#output ul {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;        
+  display: block;             
+}
+
+#output li {
+  margin-bottom: 5px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+#output p strong {
+  font-weight: bold;
+}
+
+#output .final-price, 
+#output p strong:only-child {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 0;
+  display: block;
+}
 input{
     width: 700px;
     padding: 10px;
@@ -85,6 +124,11 @@ input{
     margin-top: 20px;
     border-radius: 5px;
     border: none;
+}
+input:focus{
+   background-color: #E8F0FD; 
+    outline: none;             
+    border: 1.5px solid #0069D9;
 }
 button{
     background-color: #0069D9;
