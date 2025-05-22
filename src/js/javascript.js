@@ -30,5 +30,5 @@ function calc(){
     }
 
     output.innerHTML += `<h2>Preço Final: ${formatter.format(total)}</h2>`;
-
+ 
 }
